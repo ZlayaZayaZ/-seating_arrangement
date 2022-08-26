@@ -137,9 +137,6 @@ base_people_slots = create_base_dict(nicks)
 # перемешиваем базовый словарь используя разный порядок горизонтальных и вертикальных функций
 random_horizontal(base_people_slots)
 random_horizontal(base_people_slots)
-
-# обнаружила, что вертикальное перемешивание не обязательно,
-# но оно увеличивает рандомность, так что оставлю на всякий случай
 random_vertical(base_people_slots)
 pprint.pprint(base_people_slots)
 
